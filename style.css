@@ -99,6 +99,46 @@ main h1, main h2, main h3 {
 }
 
 footer {
-    background-color: rgb(245, 239, 239);
+    background-color: rgb(248, 248, 248);
     margin-top: 150px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 30px;
+    font-size: 12px;
 }
+
+footer h4 {
+    margin-bottom: 10px;
+}
+
+footer img {
+    width: 40px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+#footer-one {
+    width: 150px;
+    color: gray;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.subtle {
+    padding-top: 30px;
+    background-color: rgb(248, 248, 248);
+    text-align: center;
+    color: gray;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+
+footer li {
+    padding-bottom: 10px;
+}
+
