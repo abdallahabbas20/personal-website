@@ -80,7 +80,7 @@ main h1, main h2, main h3 {
     grid-template-rows: repeat(3, 200px);
     grid-template-columns: repeat(2, 500px);
     grid-gap: 20px;
-    height: 100vh;
+    
 }
 
 .wrapper {
@@ -255,7 +255,7 @@ main {
     .container {
         grid-template-rows: repeat(6, 200px);
         grid-template-columns: repeat(1, 600px);
-        height: 200vh;
+        
    
         
     }
@@ -278,12 +278,15 @@ main {
 
 @media only screen and (max-width: 600px) {
 
- 
-    .container section {
-        justify-self: center;
-        width: 70%;
-        flex-grow: inherit;
+    .container {
         
+        grid-template-columns: repeat(1, 1fr);
+    }
+ 
+    .container section{
+        
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
     header h1 {
