@@ -4,14 +4,23 @@
     box-sizing: border-box;
 }
 
+
+
 body {
     font-family: Poppins, sans-serif;
 }
 
+nav, h1, h2 {
+    color: rgb(6, 6, 61)
+}
+
 img {
     height: auto;
-    width: 100px;
+    width: 50px;
+
 }
+
+
 
 header {
     display: inline-flex;
@@ -22,7 +31,8 @@ header {
     position: fixed;
     z-index: 1;
     background-color: white;
- 
+    padding-bottom: 10px;
+    /* border-bottom: 3px solid rgb(6, 6, 61); */
 }
 
 ul {
@@ -38,6 +48,21 @@ main {
     padding-top: 200px;
     margin-left: 120px;
 }
+
+.subscribe {
+    background-color: rgb(6, 6, 61);
+    color: white;
+    padding: 3px 8px;
+    border-radius: 5px;
+    justify-self: center;
+    margin-top: 15px;
+    margin-left: 20px;
+    
+    
+
+}
+
+
 
 main h1, main h2, main h3 {
     padding-bottom: 30px;
@@ -78,24 +103,47 @@ main h1, main h2, main h3 {
     background-color: #fbf3f7;
 }
 
+.about-me h3 {
+    color: #70063b;
+}
+
 .projects {
     background-color: #faf5ef;
 }
 
+.projects h3 {
+    color: #99590a;
+}
+
 .research {
     background-color: #eff3fa;
+}
+.research h3 {
+    color: #0d419c;
 }
 
 .my-journey {
     background-color: #e8faf8;
 }
 
+.my-journey h3 {
+    color: #056e62;
+}
+
 .services {
     background-color: #fcf9f3;
 }
 
+.services h3 {
+    color: #ac770d;
+}
+
 .newsletter {
     background-color: #fff1f1;
+}
+
+.newsletter h3 {
+    color: #a51a1a;
 }
 
 footer {
@@ -142,3 +190,17 @@ footer li {
     padding-bottom: 10px;
 }
 
+main {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+  
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
